@@ -11,7 +11,7 @@ const StoreContextProvider = (props) => {
     const [shippingFee, setShippingFee] = useState(15000); // Phí vận chuyển
     const [thongDiepGiamGia, setThongDiepGiamGia] = useState("Chưa áp dụng mã giảm giá.");
     const [isPromoApplied, setIsPromoApplied] = useState(false); // Trạng thái kiểm tra mã giảm giá đã áp dụng hay chưa
-    const url = "http://localhost:4000"
+    const url = "https://food-del-backend-ld6b.onrender.com"
     const [token, setToken] = useState("")
     const [food_list, setFoodList] = useState([])
 
