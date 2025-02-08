@@ -47,7 +47,7 @@ const PlaceOrder = () => {
       const {session_url} = response.data;
       window.location.replace(session_url)
     }else{
-      alert("Co loi khi hien thi don hang")
+      alert("Đã thêm đơn hàng!")
     }
   }
 
