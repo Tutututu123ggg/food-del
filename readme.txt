@@ -7,8 +7,8 @@
 
 ## Cài Đặt
 1. Clone repository:
-   git clone <repository-link>
-   cd <project-folder>
+   git clone https://github.com/Tutututu123ggg/food-del
+   cd food-del
    
 2. Cài đặt các thư viện cần thiết cho từng phần của dự án:
    cd frontend && npm install
